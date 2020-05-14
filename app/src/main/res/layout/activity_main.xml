@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editNome"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:hint="Digite o nome"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnNome"
+        android:text="Buscar Por Nome"
+        android:layout_marginBottom="20sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/faixaMenor"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        android:hint="Faixa de Salario de"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:id="@+id/faixaMaior"
+        android:textAlignment="center"
+        android:hint="Faixa de Salario até"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSalario"
+        android:text="Buscar Por Faixa de Salario"
+        android:layout_marginBottom="20sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:inputType="numberDecimal"
+        android:id="@+id/salarioMaior"
+        android:hint="Salario Maior Que"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:id="@+id/filhosMaior"
+        android:hint="Quantidade de Filhos Maior Que"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSalarioFilhos"
+        android:text="Buscar Por Salario e Filhos"
+        android:layout_marginBottom="20sp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnPets"
+        android:text="Buscar Por Pets Iguais"
+        android:layout_marginBottom="20sp"/>
+
+</LinearLayout>
